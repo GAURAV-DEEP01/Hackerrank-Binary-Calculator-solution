@@ -1,0 +1,14 @@
+#btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.btn{
+    height: 48px;
+}
+#res{
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgb(123, 123, 123);
+    border: solid 4px black;
+    height: 80px;
+}
