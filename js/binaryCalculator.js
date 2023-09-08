@@ -28,7 +28,7 @@ function evaluateBinary(){
         case '+' : result = (binToDec[0] + binToDec[1]); break;
         case '-' : result = (binToDec[0] - binToDec[1]); break;
         case '*' : result = (binToDec[0] * binToDec[1]); break;
-        case '/' : result = (binToDec[0] / binToDec[1]); break;
+        case '/' : result = parseInt(binToDec[0] / binToDec[1]); break;
     }
     result = result.toString(2)
     return result
